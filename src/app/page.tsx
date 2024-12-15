@@ -12,6 +12,10 @@ const Home = () => {
      <Link href="/redux-state-management" 
      className='text-center text-xl font-bold border-2 px-4 py-3 
       bg-yellow-100'>Redux State Management</Link>
+        
+     <Link href="/redux-posts-api" 
+     className='text-center text-xl font-bold border-2 px-4 py-3 
+      bg-yellow-100'>Redux Posts API</Link>
         </div>
     </div>
   );

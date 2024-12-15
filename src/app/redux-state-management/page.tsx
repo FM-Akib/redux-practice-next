@@ -12,7 +12,7 @@ export default function ReduxStateManagement() {
   const handleIncrement = (counterId: number)=>{
     dispatch(increment(counterId));
   }
-  const handleDecrement = (counterId: number)=>{
+  const handleDecrement = (counterId: number)=>{ 
     dispatch(decrement(counterId));
   }
   return (
